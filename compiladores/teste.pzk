@@ -1,15 +1,20 @@
-(* teste_fatorial.pzk *)
-program fatorial;
+program exemplo1;
 var
- fat, num, cont : integer;
+   n, k : integer;
+   f1, f2, f3 : integer;
 begin
- read(num);
- fat := 1;
- cont := 2;
- while cont <= num do
- begin
-   fat := fat * cont;
-   cont := cont + 1
- end;
- write(fat)
+   read(n);
+   f1 := 0;
+   f2 := 1;
+   k  := 1;
+
+   while k <= n do
+   begin
+      f3 := f1 + f2;
+      f1 := f2;
+      f2 := f3;
+      k  := k + 1
+   end;
+
+   write(n, f1)
 end.
