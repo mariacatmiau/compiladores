@@ -92,3 +92,51 @@ mostra qual é (léxico, sintático ou semântico)
 mostra a linha
 
 e para imediatamente
+
+print do teste do aquivo teste.pzk
+
+<img width="704" height="246" alt="image" src="https://github.com/user-attachments/assets/43166efb-6410-497a-8de7-324bf9869e1f" />
+
+@mariacatmiau ➜ /workspaces/compiladores/compiladores (main) $ ./projeto teste.pzk
+        INPP
+        AMEM 5
+        LEIT
+        ARMZ 0
+        CRCT 0
+        ARMZ 2
+        CRCT 1
+        ARMZ 3
+        CRCT 1
+        ARMZ 1
+L1:     NADA
+        CRVL 1
+        CRVL 0
+        CMEG
+        DSVF L2
+        CRVL 2
+        CRVL 3
+        SOMA
+        ARMZ 4
+        CRVL 3
+        ARMZ 2
+        CRVL 4
+        ARMZ 3
+        CRVL 1
+        CRCT 1
+        SOMA
+        ARMZ 1
+        DSVS L1
+L2:     NADA
+        CRVL 0
+        IMPR
+        CRVL 2
+        IMPR
+        PARA
+
+TABELA DE SIMBOLOS
+Entrada Tabela Simbolos: [107] => k | Endereco: 1
+Entrada Tabela Simbolos: [110] => n | Endereco: 0
+Entrada Tabela Simbolos: [204] => f1 | Endereco: 2
+Entrada Tabela Simbolos: [205] => f2 | Endereco: 3
+Entrada Tabela Simbolos: [206] => f3 | Endereco: 4
+
