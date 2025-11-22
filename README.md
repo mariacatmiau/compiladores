@@ -4,6 +4,8 @@ Maria Gabriela 10409037
 
 Raphaela polonis 10408843
 
+Link GitHub: https://github.com/mariacatmiau/compiladores
+
 📌 Sobre o projeto
 
 Esse projeto é a Fase 2 do compilador da linguagem PasKenzie.
